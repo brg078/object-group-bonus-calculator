@@ -56,11 +56,11 @@ function processBonuses(staffArray) {
     console.log(bonusCalculation(worker));
     outputArray.push(bonusCalculation(worker));
   }
-  document.getElementById("results").textContent=outputArray;
+  //document.getElementById("results").textContent=outputArray; STRETCH GOAL ATTEMPT
   return outputArray;
 }
 
-window.onload = processBonuses(employees);
+//window.onload = processBonuses(employees); ATTEMPT TO STRETCH INTO HTML
 
 function bonusCalculation(employee) {
   let bonusCalc = {name: employee.name};
